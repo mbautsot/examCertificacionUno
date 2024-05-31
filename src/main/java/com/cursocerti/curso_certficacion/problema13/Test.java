@@ -1,22 +1,5 @@
 package com.cursocerti.curso_certficacion.problema13;
  
-class Animal {}
- 
-class Dog extends Animal {}
- 
-class Cat extends Animal {}
- 
-class A<T> {
-    T t;
-    void set(T t) {
-        this.t = t;
-    }
- 
-    T get() {
-        return t;
-    }
-}
- 
 public class Test {
     //public static <T> void print1(A<? extends Animal> obj) {
        // obj.set(new Dog()); //Line 22
